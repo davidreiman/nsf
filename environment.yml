@@ -1,0 +1,19 @@
+name: spectre
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - matplotlib>=3.2.1 
+  - scikit-learn
+  - seaborn
+  - pip
+  - python
+  - numpy
+  - scipy
+  - pytorch
+  - cudatoolkit=9.0
+  - torchvision
+  - pandas
+  - pip:
+    - tensorboardX
