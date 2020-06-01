@@ -23,11 +23,4 @@ conda env create -f environment.yml
 ```
 # Data
 
-Spectre consumes pre-processed continua from the 14th data release (DR14) of the Sloan Digital Sky Survey (SDSS) quasar catalog captured by the extended Baryon Oscillation Spectroscopic Survey (eBOSS). This repository contains one such datum for use in the [inference notebook](<notebooks/inference.ipynb>). The pre-processing code is available here https://github.com/DominikaDu/QSmooth. 
-
-<!---
-**arXiv:** TBA.  
-**Abstract:** Measurement of the red damping wing of neutral hydrogen in quasar spectra provides a probe of the epoch of reionization in the early universe. Such quantification requires precise and unbiased estimates of the intrinsic continua near Lyman-α (Lyα), a challenging task given the highly variable Lyα emission profiles of quasars. Here, we introduce a fully probabilistic approach to intrinsic continua prediction. We frame the problem as a conditional density estimation task and explicitly model the distribution over plausible blue-side continua (1190 Å ≤ λrest < 1290 Å) conditional on the red-side spectrum (1290 Å ≤ λrest < 2900 Å) using normalizing flows. Our approach achieves state-of-the-art precision and accuracy, allows for sampling one thousand plausible continua in less than a tenth of a second, and can natively provide confidence intervals on the blue-side continua via Monte Carlo sampling. We measure the damping wing effect in two high-redshift quasars and estimate the volume-averaged neutral fraction of hydrogen from each, finding x_HI = 0.239 ± 0.053 for ULAS J1120+0641 (z = 7.09) and x_HI = 0.189 ± 0.031 for ULAS J1342+0928 (z = 7.54).  
-
-***
--->
+Spectre consumes pre-processed continua from the 14th data release (DR14) of the Sloan Digital Sky Survey (SDSS) quasar catalog captured by the extended Baryon Oscillation Spectroscopic Survey (eBOSS). This repository contains one such datum for use in the [inference notebook](<notebooks/inference.ipynb>). The pre-processing code is available here: https://github.com/DominikaDu/QSmooth.
