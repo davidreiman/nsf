@@ -12,7 +12,7 @@ In [Fully probabilistic quasar continua predictions near Lyman-α with condition
 In this repository, you'll find:  
   * [Additional reconstruction examples generated from our test set](/samples)
   * Two `.npz` files each containing 5000 blue-side predictions for each of [ULAS J1120+0641 and ULAS J1342+0928](<data/>)
-  * An [evaluation notebook](<notebooks/evaluation.ipynb>) which loads the optimized Spectre model and predicts blue-side continua given red-side spectra
+  * An [inference notebook](<notebooks/inference.ipynb>) which loads the optimized Spectre model and predicts blue-side continua given red-side spectra
 
 # Dependencies
 
@@ -23,7 +23,7 @@ conda env create -f environment.yml
 ```
 # Data
 
-Spectre consumes pre-processed continua from the 14th data release (DR14) of the Sloan Digital Sky Survey (SDSS) quasar catalog captured by the extended Baryon Oscillation Spectroscopic Survey (eBOSS). This repository contains one such datum for use in the [evaluation notebook](<notebooks/evaluation.ipynb>). The pre-processing code is available here https://github.com/DominikaDu/QSmooth. 
+Spectre consumes pre-processed continua from the 14th data release (DR14) of the Sloan Digital Sky Survey (SDSS) quasar catalog captured by the extended Baryon Oscillation Spectroscopic Survey (eBOSS). This repository contains one such datum for use in the [inference notebook](<notebooks/inference.ipynb>). The pre-processing code is available here https://github.com/DominikaDu/QSmooth. 
 
 <!---
 **arXiv:** TBA.  
