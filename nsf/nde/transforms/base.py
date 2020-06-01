@@ -31,32 +31,33 @@ class Transform(nn.Module):
 class CompositeTransform(Transform):
     """Composes several transforms into one, in the order they are given."""
 
-    def __init__(self, transforms):
+    def __init__(self, transforms, device):
         """Constructor.
 
         Args:
             transforms: an iterable of `Transform` objects.
         """
         super().__init__()
+        self.device = device
         self._transforms = nn.ModuleList(transforms)
 
     @staticmethod
-    def _cascade(inputs, funcs, context):
+    def _cascade(inputs, funcs, context, device):
         batch_size = inputs.shape[0]
         outputs = inputs
-        total_logabsdet = torch.zeros(batch_size)
+        total_logabsdet = torch.zeros(batch_size).to(device)
         for func in funcs:
             outputs, logabsdet = func(outputs, context)
-            total_logabsdet += logabsdet
+            total_logabsdet += logabsdet.to(device)
         return outputs, total_logabsdet
 
     def forward(self, inputs, context=None):
         funcs = self._transforms
-        return self._cascade(inputs, funcs, context)
+        return self._cascade(inputs, funcs, context, self.device)
 
     def inverse(self, inputs, context=None):
         funcs = (transform.inverse for transform in self._transforms[::-1])
-        return self._cascade(inputs, funcs, context)
+        return self._cascade(inputs, funcs, context, self.device)
 
 
 class MultiscaleCompositeTransform(Transform):
