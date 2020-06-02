@@ -24,3 +24,7 @@ conda env create -f environment.yml
 # Data
 
 Spectre consumes pre-processed continua from the 14th data release (DR14) of the Sloan Digital Sky Survey (SDSS) quasar catalog captured by the extended Baryon Oscillation Spectroscopic Survey (eBOSS). This repository contains one such datum for use in the [inference notebook](<notebooks/inference.ipynb>). The pre-processing code is available here: https://github.com/DominikaDu/QSmooth.
+
+# Acknowledgements
+
+Our code is forked from and built upon the [Neural Spline Flow codebase](https://github.com/bayesiains/nsf) whose corresponding paper is available on arXiv at [1906.04032](https://arxiv.org/abs/1906.04032).
