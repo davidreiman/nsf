@@ -1,7 +1,7 @@
 # Fully probabilistic quasar continua predictions near Lyman-α with conditional neural spline flows.
 ***Authors:*** *David M. Reiman, John Tamanas, J. Xavier Prochaska, and Dominika Ďurovčíková*
 <!---[\[arxiv\]](arXiv)[\[bibtex\]](bibtex)-->
-[![arXiv](http://img.shields.io/badge/arXiv-2005.xxxxx-cd5c5c.svg)](arXiv)
+[![arXiv](http://img.shields.io/badge/arXiv-2006.00615-cd5c5c.svg)](https://arxiv.org/abs/2006.00615)
 [![bibtex](http://img.shields.io/badge/bibtex-4682b4.svg)](bibtex)
 
 <!--- smaller image here, like 2 examples -->
