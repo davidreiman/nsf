@@ -27,4 +27,4 @@ Spectre consumes pre-processed continua from the 14th data release (DR14) of the
 
 # Acknowledgements
 
-Our code is forked from and built upon the [Neural Spline Flow codebase](https://github.com/bayesiains/nsf) whose corresponding paper is available on arXiv at [1906.04032](https://arxiv.org/abs/1906.04032).
+Our code is built upon the [Neural Spline Flow codebase](https://github.com/bayesiains/nsf) whose corresponding paper is available on arXiv at [1906.04032](https://arxiv.org/abs/1906.04032).
