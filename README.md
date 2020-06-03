@@ -4,7 +4,7 @@
 [![arXiv](http://img.shields.io/badge/arXiv-2006.00615-cd5c5c.svg)](https://arxiv.org/abs/2006.00615)
 [![BibTex](http://img.shields.io/badge/BibTex-4682b4.svg)](https://ui.adsabs.harvard.edu/abs/2020arXiv200600615R/exportcitation)
 
-<!--- smaller image here, like 2 examples -->
+<!--- 2 examples -->
 <img src="/samples/sample_readme.png">
 
 In [Fully probabilistic quasar continua predictions near Lyman-α with conditional neural spline flows](https://arxiv.org/abs/2006.00615), we introduce *Spectre*, a conditional rational quadratic neural spline flow which models the distribution over plausible blue-side QSO continua (1190 Å ≤ λ<sub>rest</sub> < 1290 Å) given the red-side spectrum (1290 Å ≤ λ<sub>rest</sub> < 2900 Å).
