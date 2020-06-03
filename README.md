@@ -2,7 +2,7 @@
 **Authors:** David M. Reiman, John Tamanas, J. Xavier Prochaska, and Dominika Ďurovčíková
 <!---[\[arxiv\]](arXiv)[\[bibtex\]](bibtex)-->
 [![arXiv](http://img.shields.io/badge/arXiv-2006.00615-cd5c5c.svg)](https://arxiv.org/abs/2006.00615)
-<!---[![bibtex](http://img.shields.io/badge/bibtex-4682b4.svg)](bibtex)-->
+[![BibTex](http://img.shields.io/badge/BibTex-4682b4.svg)](https://ui.adsabs.harvard.edu/abs/2020arXiv200600615R/exportcitation)
 
 <!--- smaller image here, like 2 examples -->
 <img src="/samples/sample_readme.png">
